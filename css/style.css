@@ -17,9 +17,6 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-.yellowcar{
-    animation-name: moveLeft;
-}
 @keyframes moveLeft {
     0%{
         left: 87%;
