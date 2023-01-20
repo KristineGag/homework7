@@ -43,3 +43,43 @@
         right: 0%;
     }
 }
+.clouds{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    right:3%;
+    top:2%;
+    animation-name: moveup;
+    animation-duration: 4s;
+    animation-delay: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes moveup {
+    0%{
+        top: 2%;
+    }
+    100%{
+        top: 3%;
+    }
+}
+.clouds2{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left:4%;
+    top:5%;
+    animation-name: moveupp;
+    animation-duration: 4s;
+    animation-delay: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes moveupp {
+    0%{
+        top: 5%;
+    }
+    100%{
+        top: 4%;
+    }
+}
